@@ -1,0 +1,51 @@
+.music-list-root{
+    /* border: solid 1px red; */
+    width: 200px;
+    height: 600px;
+
+    flex-shrink: 0;
+
+    border-right: solid 1px #ccc;
+}
+
+
+.music-list-play-style{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    border-bottom: dotted 2px rgb(0, 231, 231);
+}
+
+.music-list-btn{
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc !important;
+}
+
+.music-list-btn-high{
+    font-size: 28px;
+    color: #1890ff !important;
+}
+
+.music-list-box{
+    padding: 0 8px;
+}
+
+.music-list-item{
+    cursor: pointer;
+    color: white;
+    padding: 4px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.music-list-item:hover{
+    font-weight: bold;
+    color: brown;
+}
+
+.music-list-playing-icon{
+    color: coral !important;
+}
+

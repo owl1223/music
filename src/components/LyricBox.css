@@ -1,0 +1,22 @@
+.lyric-box-root{
+    width: calc(100% + 17px);
+    height: 400px;
+    /* border: solid 1px blue; */
+
+    overflow-y: scroll;
+
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.lyric-box-line{
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.lyric-box-highline{
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+}

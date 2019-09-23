@@ -1,0 +1,43 @@
+.control-box-root{
+    width: 100%;
+    height: 200px;
+    /* border: solid 1px green; */
+}
+
+.control-box-progress-bar{
+    height: 70px;
+    /* border: solid 1px cyan; */
+
+    padding: 0 40px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 1px #999;
+}
+
+
+.control-box-control-bar{
+    height: 130px;
+    /* border: solid 1px gold; */
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid 1px #ccc;
+}
+
+.control-box-time-label{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.control-box-icon{
+    transition: all 0.3s;
+    font-size:80px;
+    color:rgb(0, 204, 255) !important;
+    cursor:pointer;
+}
+
+.control-box-icon:hover{
+    color: rgb(122, 251, 255) !important;
+}

@@ -1,0 +1,73 @@
+.app-main{
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 100px;
+    position: relative;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    
+}
+
+.app-player-box{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    background:#333;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.app-right-box{
+    width: 800px;
+    /* background:white; */
+    z-index: 10;
+    flex-shrink: 0;
+    overflow: hidden;
+    background:#333;
+    border-left: solid 1px #999;
+
+}
+
+
+@keyframes app-cd-spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+.app-cd-spin{
+    animation-name: app-cd-spin;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.app-cd{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 4px white;
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.app-cd:hover{
+    right: -350px;
+}
+
+.app-cd-hole{
+    width: 70px;
+    height: 70px;
+    background-color: #707070;
+    border-radius: 50%;
+    border: solid 4px white;
+}
